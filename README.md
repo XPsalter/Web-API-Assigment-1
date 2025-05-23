@@ -271,3 +271,7 @@ checkStock() {
 ```
 and the products.json file
 The code will prompt you for a minimum threshold, after which. should the answer given be a number, the code will show all the product items that have stock numbers below the threshold
+
+# References
+Shopee E-store (https://shopee.sg)
+W3Schools for coding help (https://w3schools.com)
