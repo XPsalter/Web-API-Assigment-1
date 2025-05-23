@@ -12,8 +12,10 @@ A command-line simulation of some new Shopee features.
 
 ## How to Run
 
-1. Open the folder in integrated terminal
-2. Open a terminal and run "nodemon app.js"
+0. ENSURE YOU HAVE NODEMON OR NODE.JS AS THOSE ARE NECESSARY FOR IT TO RUN
+1. Download the files in the Github
+2. Open the folder in integrated terminal
+3. Open a terminal and run "nodemon app.js" or "node app.js"
 
 The following is the app.js file from which the main interface is run
 ```js
