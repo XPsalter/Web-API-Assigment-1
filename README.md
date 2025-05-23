@@ -16,7 +16,7 @@ A command-line simulation of some new Shopee features.
 2. Open a terminal and run "nodemon app.js"
 
 The following is the app.js file from which the main interface is run
-```
+```js
 const readline = require('readline');
 
 console.log("Starting Shopee additional functionsapp");
@@ -82,7 +82,7 @@ appMenu();
 ```
 
 The change region function is the following code
-```
+```js
 selectRegion () {
         return new Promise((resolve, reject) => {
             const userRegion = readline.createInterface({
@@ -133,7 +133,7 @@ selectRegion () {
     },
 ```
 It uses the following Regions JSON to execute
-```
+```js
 const regions = {
     id: { country: "Indonesia", url: "https://shopee.co.id/" },
     ph: { country: "Philippines", url: "https://shopee.ph/" },
@@ -146,7 +146,7 @@ const regions = {
 If an invalid response is given it defaults to the Singapore Shopee link
 
 The Change Language function uses the following code
-```
+```js
 selectLanguage () {
         return new Promise((resolve, reject) => {
             const userLanguage = readline.createInterface({
@@ -188,7 +188,7 @@ selectLanguage () {
     },
 ```
 and the following Language JSON to run
-```
+```js
 const languages = {
     en: "English",
     ch: "Chinese",
@@ -198,12 +198,12 @@ const languages = {
 This will simulate changing the language used. If an invalid response is given it defaults to system default
 
 The Random Product suggester uses the following codes to run
-```
+```js
 function randint(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
     }
 ```
-```
+```js
     randomItem(){
         const randomised = randint(0, products.length - 1);
         const randProduct = products[randomised];
@@ -214,7 +214,7 @@ The rand int function is used outside the exports as otherwise it is not defined
 It will redirect the user to a random product in the catalog
 
 The Display Statistics function uses the following codes
-```
+```js
 displayStats (data) {
         console.log('Shopee Stats');
 
@@ -233,7 +233,7 @@ and the saleData.json file
 It will simply display the amount sold and revenue generated of and by each item
 
 The low stock function uses the following codes
-```
+```js
 checkStock() {
         const rl = readline.createInterface({
             input: process.stdin,
