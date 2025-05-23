@@ -2,7 +2,7 @@ const readline = require('readline');
 
 console.log("Starting Shopee additional functionsapp");
 
-const appFunctions = require("./functions.js");
+const appFunctions = require("./YuFengAddShopeeFeatures.js");
 const salesData = require("./salesData.json");
 const products = require("./products.json")
 
