@@ -1,0 +1,7 @@
+[
+  { "id": 0, "name": "Bluetooth Speaker", "stock": 100, "price": 49.99 },
+  { "id": 1, "name": "Gaming Chair", "stock": 50, "price": 199.99 },
+  { "id": 2, "name": "Smartphone X", "stock": 30, "price": 499.99 },
+  { "id": 3, "name": "Wireless Mouse", "stock": 15, "price": 29.99 },
+  { "id": 4, "name": "Bluetooth Headphones", "stock": 5, "price": 89.99 }
+]

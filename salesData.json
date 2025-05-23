@@ -1,0 +1,6 @@
+[
+  { "product": "Laptop", "quantity": 50, "revenue": 50000 },
+  { "product": "Phone", "quantity": 150, "revenue": 75000 },
+  { "product": "Mouse", "quantity": 200, "revenue": 10000 },
+  { "product": "Keyboard", "quantity": 100, "revenue": 20000 }
+]
