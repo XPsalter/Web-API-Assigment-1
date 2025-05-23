@@ -1,6 +1,6 @@
 const readline = require('readline');
 
-console.log("Starting Shopee Region Selector app");
+console.log("Starting Shopee additional functionsapp");
 
 const appFunctions = require("./functions.js");
 const salesData = require("./salesData.json");
